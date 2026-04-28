@@ -1,0 +1,46 @@
+*{
+    margin: 10px auto;
+    padding: 0;
+    box-sizing: border-box; 
+    /* não deixa o elemento sair do lugar, ele fixa o tamanho da caixa */
+}
+
+body{
+    background-image: url(img/jojo.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+}
+@keyframes cor{
+    25%{background-color: blueviolet;}
+    60%{background-color: rgb(83, 182, 149);}
+    90%{background-color: red;}
+}
+h1{
+    color: rgb(255, 239, 9);
+    font-family: playwrite NO, cursive;
+}
+p{
+    font-weight: bolder;
+}
+
+.main{
+    width: 60%;
+    padding: 20px;
+    background-color: rgba(128, 128, 128, 0.7);
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px rgb(66, 66, 66);
+    animation: cor 5s infinite;
+    border: 3px solid #000000;
+}
+
+img{
+    border-radius: 20px;
+    width:100%;
+    height: auto;
+}
